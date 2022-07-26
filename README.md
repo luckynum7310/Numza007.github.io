@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://numza007.github.io/">
-    <img src="https://i.imgur.com/Epnkb8i.jpg" alt="Bootstrap logo">
+    <img src="https://i.imgur.com/Epnkb8i.jpg" alt="Bootstrap logo" width="auto" height="auto">
   </a>
 </p>
 
