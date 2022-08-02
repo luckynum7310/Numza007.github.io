@@ -1,0 +1,49 @@
+.heading {
+    background-color: black;
+    color: aqua;
+    font-size: 56px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 64px;
+  background-color: tomato;
+}
+
+.avatar-shape {
+  position: relative;
+  overflow: hidden;
+  width: 144px;
+  height: 144px;
+  border-radius: 50%;
+}
+.avatar {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.avatar-description {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.4;
+  color: cornsilk;
+}
+
+.section {
+  &.is-left {
+    padding: 0 48 0 48;
+    border: 1px solid orange;
+    margin: 16px;
+  } 
+
+  &.is-right {
+    padding: 0 48 0 48;
+    border: 1px solid rgb(0, 255, 60);
+    margin: 24px;
+  }
+}
