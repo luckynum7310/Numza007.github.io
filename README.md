@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://numza007.github.io/">
+  <a href="https://luckynum7310.github.io/cv/">
     <img src="https://i.imgur.com/Epnkb8i.jpg" alt="Bootstrap logo" width="auto" height="auto">
   </a>
 </p>
@@ -9,12 +9,12 @@
 <p align="center">
   I'm a UX/UI designer
   <br>
-  <a href="https://numza007.github.io/"><strong>Explore my works</strong></a>
+  <a href="https://luckynum7310.github.io/cv/"><strong>Explore my works</strong></a>
   <br>
   <br>
   <a href="mailto:luckynum.sakura@gmail.com">Email: luckynum.sakura@gmail.com</a>
   ·
   <a href="tel:+6636853708">Phone: +66 63 685 3708</a>
   ·
-  <a href="https://numza007.github.io/">Website: numza007.github.io</a>
+  <a href="https://luckynum7310.github.io/cv/">Website: luckynum7310.github.io</a>
 </p>

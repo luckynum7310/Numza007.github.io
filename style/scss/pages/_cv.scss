@@ -1,50 +1,50 @@
-.container {
+.cv-container {
   font-family: 'Kanit', sans-serif; 
 }
 
-.header {
+.cv-header {
     display: flex;
     justify-content:space-between;
     align-items:center;
     margin: 24px;
 }
 
-.header-text {
+.cv-header-text {
   display: flex;
   justify-content:space-between;
   align-items:flex-start;
   flex-direction: column;
 }
 
-.header-line {
+.cv-header-line {
   height: 8px;
   width:460px;
 }
 
-.header-position {
+.cv-header-position {
   color: #AAAAAA;
   font-size: 40px;
 }
 
-.name {
+.cv-name {
     font-size: 120px;
     color: #1F2937;
     padding: 0 24px 0 0;
 }
 
-.nickname {
+.cv-nickname {
     font-size: 64px;
     color: #AAAAAA;
 }
 
-.avatar-shape {
+.cv-avatar-shape {
     position: relative;
     overflow: hidden;
     width: 300px;
     height: 300px;
     border-radius: 50%;
   }
-  .avatar {
+  .cv-avatar {
     position: absolute;
     z-index: 1;
     width: 100%;
@@ -52,7 +52,7 @@
     object-fit: cover;
   }
 
-.contact {
+.cv-contact {
     display: flex;
     justify-content:space-between;
     align-items:flex-start;
@@ -61,7 +61,7 @@
     padding: 16px 24px;
   }
 
-.contect-header {
+.cv-contect-header {
     display: flex;
     justify-content:space-between;
     color: #ffffff;
@@ -69,35 +69,35 @@
   
   }
 
-.contect-text {
+.cv-contect-text {
     padding: 0 24px 0 0;
     font-size: 48px;
   }
 
-.icon {
+.cv-icon {
     width: 48px;
     height: 48px;
   }
 
-.contact-information {
+.cv-contact-information {
   display: flex;
   justify-content:space-between;
   align-items:center;
   color: #ffffff;
 }
 
-.information-text {
+.cv-information-text {
   font-size: 32px;
   font-weight:300;
 }
 
-.icon-small {
+.cv-icon-small {
   width: 24px;
   height:24px;
   margin: 24px 24px 24px 0px;
 }
 
-.personal-data {
+.cv-personal-data {
   display: flex;
   justify-content:space-between;
   align-items:flex-start;
@@ -106,26 +106,26 @@
   padding: 16px 24px;
 }
 
-.personal-header {
+.cv-personal-header {
   display: flex;
   justify-content:space-between;
   align-items:center;
   color: #1F2937;
 }
 
-.personal-text {
+.cv-personal-text {
   padding: 0 0 0 24px;
   font-size: 48px;
 }
 
-.text-information {
+.cv-text-information {
   display: flex;
   justify-content:space-between;
   align-items:center;
   color: #1F2937;
 }
 
-.text-value {
+.cv-text-value {
   font-size: 32px;
   font-weight:300;
   margin: 16px 16px 16px 0px;
