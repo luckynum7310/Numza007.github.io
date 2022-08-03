@@ -1,52 +1,3 @@
-.heading {
-  background-color: black;
-  color: aqua;
-  font-size: 56px;
-}
-
-.container {
-  display: flex;
-  justify-content: space-between;
-  padding: 64px;
-  background-color: tomato;
-}
-
-.avatar-shape {
-  position: relative;
-  overflow: hidden;
-  width: 144px;
-  height: 144px;
-  border-radius: 50%;
-}
-
-.avatar {
-  position: absolute;
-  z-index: 1;
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.avatar-description {
-  font-family: "Kanit", sans-serif;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 1.4;
-  color: cornsilk;
-}
-
-.section.is-left {
-  padding: 0 48 0 48;
-  border: 1px solid orange;
-  margin: 16px;
-}
-.section.is-right {
-  padding: 0 48 0 48;
-  border: 1px solid rgb(0, 255, 60);
-  margin: 24px;
-}
-
 .cv-container {
   font-family: "Kanit", sans-serif;
 }
@@ -178,4 +129,78 @@
   font-size: 32px;
   font-weight: 300;
   margin: 16px 16px 16px 0px;
+}
+
+.home-heading {
+  background-color: black;
+  color: aqua;
+  font-size: 56px;
+}
+
+.home-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 64px;
+  background-color: tomato;
+}
+
+.home-avatar-shape {
+  position: relative;
+  overflow: hidden;
+  width: 144px;
+  height: 144px;
+  border-radius: 50%;
+}
+
+.home-avatar {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.home-avatar-description {
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.4;
+  color: cornsilk;
+}
+
+.home-section.home-is-left {
+  padding: 0 48 0 48;
+  border: 1px solid orange;
+  margin: 16px;
+}
+.home-section.home-is-right {
+  padding: 0 48 0 48;
+  border: 1px solid rgb(0, 255, 60);
+  margin: 24px;
+}
+
+.body {
+  background-color: #FFFFFF;
+  overflow: overlay;
+}
+.body::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.body::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+}
+.body::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.6);
+}
+.body::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 3px;
+}
+
+.website-container {
+  max-width: 1280px;
+  margin: 0 auto;
 }/*# sourceMappingURL=main.css.map */
