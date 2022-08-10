@@ -131,6 +131,130 @@
   margin: 16px 16px 16px 0px;
 }
 
+.ch-body {
+  background-color: #1F2937;
+}
+
+.ch-container {
+  max-width: 1280px;
+  margin: 0px auto;
+}
+
+.box {
+  padding: 40px;
+}
+
+.ch-content.is-padding-bottom {
+  padding: 0 0 32px 0;
+}
+
+.ch-box-background {
+  padding: 32px;
+  background-color: #FFFFFF;
+}
+
+.ch-name {
+  font-family: "Kanit", sans-serif;
+}
+.ch-name.is-text-large {
+  font-size: 100px;
+  font-weight: 500;
+}
+.ch-name.is-color-gray {
+  color: #1F2937;
+}
+
+hr {
+  height: 4px;
+  background-color: #AAAAAA;
+  border-radius: 4px;
+}
+
+.ch-nickname {
+  font-family: "Kanit", sans-serif;
+}
+.ch-nickname.is-text-small {
+  font-size: 40px;
+  font-weight: 400;
+}
+.ch-nickname.is-color-gray-light {
+  color: #AAAAAA;
+}
+
+.ch-avatar {
+  position: relative;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.ch-contact-background {
+  padding: 32px;
+  background-color: #FB8E00;
+}
+
+.is-color-white {
+  color: #FFFFFF;
+}
+
+.is-color-gray {
+  color: #1F2937;
+}
+
+.ch-contact-heading {
+  font-family: "Kanit", sans-serif;
+}
+.ch-contact-heading.is-contect-text {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.ch-icon-white {
+  width: 40px;
+  height: auto;
+}
+
+.ch-icon-ed {
+  width: 56px;
+  height: auto;
+}
+
+.ch-contact-title {
+  font-family: "Kanit", sans-serif;
+}
+.ch-contact-title.is-contect-title {
+  font-size: 32px;
+  font-weight: 300;
+}
+
+.ch-icon-white-small {
+  width: 28px;
+  height: auto;
+}
+
+.items-center {
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover {
+  text-decoration: underline;
+  color: #1F2937;
+}
+
+.space-between {
+  padding-bottom: 8px;
+}
+
+.ch-personal-background {
+  padding: 32px;
+  background-color: #FFFFFF;
+}
+
 .home-heading {
   background-color: black;
   color: aqua;
@@ -178,6 +302,29 @@
   padding: 0 48 0 48;
   border: 1px solid rgb(0, 255, 60);
   margin: 24px;
+}
+
+.test-body {
+  background-color: beige;
+}
+
+.test-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.test {
+  padding: 48px;
+}
+
+.test-imgage {
+  width: 144px;
+  height: 144px;
+}
+
+.test-bg {
+  padding: 32px;
+  background-color: #FFFFFF;
 }
 
 .body {
