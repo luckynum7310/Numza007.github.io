@@ -1,5 +1,5 @@
 .cv-container {
-  font-family: 'Kanit', sans-serif;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
 }
 
 .cv-header {
@@ -92,10 +92,9 @@
   font-weight: 300;
 }
 
-.cv-icon-small {
-  width: 24px;
-  height: 24px;
-  margin: 24px 24px 24px 0px;
+.ch-icon-white-small {
+  width: 32px;
+  height: 32px;
 }
 
 .cv-personal-data {
@@ -135,6 +134,10 @@
 
 
 
+
+
+
+
 .ch-body {
   background-color: #1F2937;
 }
@@ -162,7 +165,7 @@
 }
 
 .ch-name {
-  font-family: 'Kanit', sans-serif;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
 
   &.is-text-large {
     font-size: 100px;
@@ -175,18 +178,30 @@
 
 }
 
-hr {
-  height: 4px;
-  background-color: #AAAAAA;
-  border-radius: 4px;
+.ch-partition-line {
+
+  &.is-heading {
+    height: 4px;
+    background-color: #AAAAAA;
+    border-radius: 4px;
+  }
+
+  &.is-coreskills {
+    width: 4px;
+    height: 500px;
+    background-color: #AAAAAA;
+    border-radius: 4px;
+    margin-left: 11px;
+  }
+
 }
 
-.ch-nickname {
-  font-family: 'Kanit', sans-serif;
+.ch-position {
+  font-family: 'IBM Plex Sans Thai', sans-serif;
 
   &.is-text-small {
-    font-size: 40px;
-    font-weight: 400;
+    font-size: 36px;
+    font-weight: 500;
   }
 
   &.is-color-gray-light {
@@ -203,9 +218,18 @@ hr {
 }
 
 // contacts
-.ch-contact-background {
-  padding: 32px;
-  background-color: #FB8E00;
+.ch-background {
+
+  &.is-contact {
+    padding: 32px;
+    background-color: #FB8E00;
+  }
+
+  &.is-work {
+    padding: 32px;
+    background-color: #E2E2E2;
+  }
+
 }
 
 .is-color-white {
@@ -216,8 +240,12 @@ hr {
   color: #1F2937;
 }
 
+.is-color-gray-light {
+  color: #5c5c5c;
+}
+
 .ch-contact-heading {
-  font-family: 'Kanit', sans-serif;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
 
   &.is-contect-text {
     font-size: 40px;
@@ -229,6 +257,11 @@ hr {
 .ch-icon-white {
   width: 40px;
   height: auto;
+
+  &.is-personal {
+    width: 30px;
+    height: auto;
+  }
 }
 
 .ch-icon-ed {
@@ -237,7 +270,7 @@ hr {
 }
 
 .ch-contact-title {
-  font-family: 'Kanit', sans-serif;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
 
   &.is-contect-title {
     font-size: 32px;
@@ -266,11 +299,53 @@ a {
 }
 
 .space-between {
-  padding-bottom: 8px;
+  padding-bottom: 16px;
+
+  &.is-space-between-left {
+    margin-left: 32px;
+  }
 }
 
 // personal data ,education
 .ch-personal-background {
   padding: 32px;
   background-color: #FFFFFF;
+}
+
+.ch-bullet {
+  position: relative;
+  bottom: 3px;
+  width: 12px;
+  height: 12px;
+  border-radius: 6px; // 50%
+  border: 2px solid #FB8E00;
+
+  &.is-black-bulett {
+    position: relative;
+    bottom: 3px;
+    width: 12px;
+    height: 12px;
+    border-radius: 6px; // 50%
+    background-color: #1F2937;
+    border: 2px solid #1F2937;
+  }
+}
+
+.ch-text {
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+
+  &.is-text-work {
+    font-weight: 400;
+    font-size: 32px;
+  }
+
+  &.is-text-company {
+    font-weight: 300;
+    font-size: 32px;
+  }
+
+  &.is-text-duration {
+    font-weight: 300;
+    font-size: 28px;
+  }
 }

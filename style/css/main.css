@@ -1,5 +1,5 @@
 .cv-container {
-  font-family: "Kanit", sans-serif;
+  font-family: "IBM Plex Sans Thai", sans-serif;
 }
 
 .cv-header {
@@ -91,10 +91,9 @@
   font-weight: 300;
 }
 
-.cv-icon-small {
-  width: 24px;
-  height: 24px;
-  margin: 24px 24px 24px 0px;
+.ch-icon-white-small {
+  width: 32px;
+  height: 32px;
 }
 
 .cv-personal-data {
@@ -154,7 +153,7 @@
 }
 
 .ch-name {
-  font-family: "Kanit", sans-serif;
+  font-family: "IBM Plex Sans Thai", sans-serif;
 }
 .ch-name.is-text-large {
   font-size: 100px;
@@ -164,20 +163,27 @@
   color: #1F2937;
 }
 
-hr {
+.ch-partition-line.is-heading {
   height: 4px;
   background-color: #AAAAAA;
   border-radius: 4px;
 }
+.ch-partition-line.is-coreskills {
+  width: 4px;
+  height: 500px;
+  background-color: #AAAAAA;
+  border-radius: 4px;
+  margin-left: 11px;
+}
 
-.ch-nickname {
-  font-family: "Kanit", sans-serif;
+.ch-position {
+  font-family: "IBM Plex Sans Thai", sans-serif;
 }
-.ch-nickname.is-text-small {
-  font-size: 40px;
-  font-weight: 400;
+.ch-position.is-text-small {
+  font-size: 36px;
+  font-weight: 500;
 }
-.ch-nickname.is-color-gray-light {
+.ch-position.is-color-gray-light {
   color: #AAAAAA;
 }
 
@@ -189,9 +195,13 @@ hr {
   border-radius: 50%;
 }
 
-.ch-contact-background {
+.ch-background.is-contact {
   padding: 32px;
   background-color: #FB8E00;
+}
+.ch-background.is-work {
+  padding: 32px;
+  background-color: #E2E2E2;
 }
 
 .is-color-white {
@@ -202,8 +212,12 @@ hr {
   color: #1F2937;
 }
 
+.is-color-gray-light {
+  color: #5c5c5c;
+}
+
 .ch-contact-heading {
-  font-family: "Kanit", sans-serif;
+  font-family: "IBM Plex Sans Thai", sans-serif;
 }
 .ch-contact-heading.is-contect-text {
   font-size: 40px;
@@ -214,6 +228,10 @@ hr {
   width: 40px;
   height: auto;
 }
+.ch-icon-white.is-personal {
+  width: 30px;
+  height: auto;
+}
 
 .ch-icon-ed {
   width: 56px;
@@ -221,7 +239,7 @@ hr {
 }
 
 .ch-contact-title {
-  font-family: "Kanit", sans-serif;
+  font-family: "IBM Plex Sans Thai", sans-serif;
 }
 .ch-contact-title.is-contect-title {
   font-size: 32px;
@@ -247,12 +265,49 @@ a:hover {
 }
 
 .space-between {
-  padding-bottom: 8px;
+  padding-bottom: 16px;
+}
+.space-between.is-space-between-left {
+  margin-left: 32px;
 }
 
 .ch-personal-background {
   padding: 32px;
   background-color: #FFFFFF;
+}
+
+.ch-bullet {
+  position: relative;
+  bottom: 3px;
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+  border: 2px solid #FB8E00;
+}
+.ch-bullet.is-black-bulett {
+  position: relative;
+  bottom: 3px;
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+  background-color: #1F2937;
+  border: 2px solid #1F2937;
+}
+
+.ch-text {
+  font-family: "IBM Plex Sans Thai", sans-serif;
+}
+.ch-text.is-text-work {
+  font-weight: 400;
+  font-size: 32px;
+}
+.ch-text.is-text-company {
+  font-weight: 300;
+  font-size: 32px;
+}
+.ch-text.is-text-duration {
+  font-weight: 300;
+  font-size: 28px;
 }
 
 .home-heading {
@@ -325,6 +380,10 @@ a:hover {
 .test-bg {
   padding: 32px;
   background-color: #FFFFFF;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 .body {
