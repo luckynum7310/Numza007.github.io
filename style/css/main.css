@@ -15,12 +15,12 @@
     padding: 0px;
   }
 }
-@media (min-width: 361px) and (max-width: 414px) {
+@media (min-width: 361px) and (max-width: 428px) {
   .box {
     padding: 0px;
   }
 }
-@media (min-width: 415px) and (max-width: 1024px) {
+@media (min-width: 429px) and (max-width: 1024px) {
   .box {
     padding: 0px;
   }
@@ -39,7 +39,7 @@
     padding: 14px;
   }
 }
-@media (min-width: 361px) and (max-width: 414px) {
+@media (min-width: 361px) and (max-width: 428px) {
   .ch-box-background {
     padding: 18px;
   }
@@ -57,12 +57,12 @@
     font-size: 32px;
   }
 }
-@media (min-width: 361px) and (max-width: 414px) {
+@media (min-width: 361px) and (max-width: 428px) {
   .ch-name.is-text-large {
     font-size: 48px;
   }
 }
-@media (min-width: 415px) and (max-width: 1024px) {
+@media (min-width: 429px) and (max-width: 1024px) {
   .ch-name.is-text-large {
     font-size: 64px;
   }
@@ -82,13 +82,13 @@
     border-radius: 2px;
   }
 }
-@media (min-width: 361px) and (max-width: 414px) {
+@media (min-width: 361px) and (max-width: 428px) {
   .ch-partition-line.is-heading {
     height: 2px;
     border-radius: 2px;
   }
 }
-@media (min-width: 415px) and (max-width: 1024px) {
+@media (min-width: 429px) and (max-width: 1024px) {
   .ch-partition-line.is-heading {
     height: 4px;
     border-radius: 4px;
@@ -109,7 +109,7 @@
     border-radius: 4px;
   }
 }
-@media (min-width: 361px) and (max-width: 414px) {
+@media (min-width: 361px) and (max-width: 428px) {
   .ch-partition-line.is-coreskills {
     width: 2px;
     height: 350px;
@@ -117,7 +117,7 @@
     border-radius: 4px;
   }
 }
-@media (min-width: 415px) and (max-width: 1024px) {
+@media (min-width: 429px) and (max-width: 1024px) {
   .ch-partition-line.is-coreskills {
     width: 3px;
     height: 400px;
@@ -139,12 +139,12 @@
     font-size: 16px;
   }
 }
-@media (min-width: 361px) and (max-width: 414px) {
+@media (min-width: 361px) and (max-width: 428px) {
   .ch-position.is-text-small {
     font-size: 22px;
   }
 }
-@media (min-width: 415px) and (max-width: 1024px) {
+@media (min-width: 429px) and (max-width: 1024px) {
   .ch-position.is-text-small {
     font-size: 26px;
   }
@@ -167,14 +167,14 @@
     margin-bottom: 16px;
   }
 }
-@media (min-width: 361px) and (max-width: 414px) {
+@media (min-width: 361px) and (max-width: 428px) {
   .ch-avatar {
     width: 124px;
     height: 124px;
     margin-bottom: 16px;
   }
 }
-@media (min-width: 415px) and (max-width: 1024px) {
+@media (min-width: 429px) and (max-width: 1024px) {
   .ch-avatar {
     width: 164px;
     height: 164px;
@@ -190,7 +190,7 @@
     padding: 14px 14px 0 14px;
   }
 }
-@media (min-width: 361px) and (max-width: 414px) {
+@media (min-width: 361px) and (max-width: 428px) {
   .ch-background.is-contact {
     padding: 18px;
     padding: 18px 18px 0 18px;
@@ -205,7 +205,7 @@
     padding: 14px 14px 0 14px;
   }
 }
-@media (min-width: 361px) and (max-width: 414px) {
+@media (min-width: 361px) and (max-width: 428px) {
   .ch-background.is-work {
     padding: 18px;
     padding: 18px 18px 0 18px;
@@ -236,12 +236,12 @@
     font-size: 24px;
   }
 }
-@media (min-width: 361px) and (max-width: 414px) {
+@media (min-width: 361px) and (max-width: 428px) {
   .ch-contact-heading.is-contect-text {
     font-size: 24px;
   }
 }
-@media (min-width: 415px) and (max-width: 1024px) {
+@media (min-width: 429px) and (max-width: 1024px) {
   .ch-contact-heading.is-contect-text {
     font-size: 28px;
   }
@@ -257,13 +257,13 @@
     height: auto;
   }
 }
-@media (min-width: 361px) and (max-width: 414px) {
+@media (min-width: 361px) and (max-width: 428px) {
   .ch-icon-white.is-contact {
     width: 24px;
     height: auto;
   }
 }
-@media (min-width: 415px) and (max-width: 1024px) {
+@media (min-width: 429px) and (max-width: 1024px) {
   .ch-icon-white.is-contact {
     width: 30px;
     height: auto;
@@ -279,13 +279,13 @@
     height: auto;
   }
 }
-@media (min-width: 361px) and (max-width: 414px) {
+@media (min-width: 361px) and (max-width: 428px) {
   .ch-icon-white.is-personal {
     width: 24px;
     height: auto;
   }
 }
-@media (min-width: 415px) and (max-width: 1024px) {
+@media (min-width: 429px) and (max-width: 1024px) {
   .ch-icon-white.is-personal {
     width: 30px;
     height: auto;
@@ -309,12 +309,12 @@
     font-size: 16px;
   }
 }
-@media (min-width: 361px) and (max-width: 414px) {
+@media (min-width: 361px) and (max-width: 428px) {
   .ch-contact-title.is-contect-title {
     font-size: 18px;
   }
 }
-@media (min-width: 415px) and (max-width: 1024px) {
+@media (min-width: 429px) and (max-width: 1024px) {
   .ch-contact-title.is-contect-title {
     font-size: 22px;
   }
@@ -330,13 +330,13 @@
     height: auto;
   }
 }
-@media (min-width: 361px) and (max-width: 414px) {
+@media (min-width: 361px) and (max-width: 428px) {
   .ch-icon-white-small {
     width: 16px;
     height: auto;
   }
 }
-@media (min-width: 415px) and (max-width: 1024px) {
+@media (min-width: 429px) and (max-width: 1024px) {
   .ch-icon-white-small {
     width: 20px;
     height: auto;
@@ -368,12 +368,12 @@ a:hover {
     margin-left: 8px;
   }
 }
-@media (min-width: 361px) and (max-width: 414px) {
+@media (min-width: 361px) and (max-width: 428px) {
   .space-between.is-space-between-left {
     margin-left: 8px;
   }
 }
-@media (min-width: 415px) and (max-width: 1024px) {
+@media (min-width: 429px) and (max-width: 1024px) {
   .space-between.is-space-between-left {
     margin-left: 24px;
   }
@@ -388,7 +388,7 @@ a:hover {
     padding: 14px 14px 0 14px;
   }
 }
-@media (min-width: 361px) and (max-width: 414px) {
+@media (min-width: 361px) and (max-width: 428px) {
   .ch-personal-background {
     padding: 18px 18px 0 18px;
   }
@@ -411,7 +411,7 @@ a:hover {
     border: 1px solid #FB8E00;
   }
 }
-@media (min-width: 361px) and (max-width: 414px) {
+@media (min-width: 361px) and (max-width: 428px) {
   .ch-bullet {
     bottom: 1px;
     width: 8px;
@@ -420,7 +420,7 @@ a:hover {
     border: 1px solid #FB8E00;
   }
 }
-@media (min-width: 415px) and (max-width: 1024px) {
+@media (min-width: 429px) and (max-width: 1024px) {
   .ch-bullet {
     bottom: 2px;
     width: 10px;
@@ -445,7 +445,7 @@ a:hover {
     border: 1px solid #1F2937;
   }
 }
-@media (min-width: 361px) and (max-width: 414px) {
+@media (min-width: 361px) and (max-width: 428px) {
   .ch-bullet.is-black-bulett {
     bottom: 1px;
     width: 8px;
@@ -454,7 +454,7 @@ a:hover {
     border: 1px solid #1F2937;
   }
 }
-@media (min-width: 415px) and (max-width: 1024px) {
+@media (min-width: 429px) and (max-width: 1024px) {
   .ch-bullet.is-black-bulett {
     bottom: 2px;
     width: 10px;
@@ -474,12 +474,12 @@ a:hover {
     font-size: 16px;
   }
 }
-@media (min-width: 361px) and (max-width: 414px) {
+@media (min-width: 361px) and (max-width: 428px) {
   .ch-text.is-text-work {
     font-size: 20px;
   }
 }
-@media (min-width: 415px) and (max-width: 1024px) {
+@media (min-width: 429px) and (max-width: 1024px) {
   .ch-text.is-text-work {
     font-size: 24px;
   }
@@ -493,12 +493,12 @@ a:hover {
     font-size: 14px;
   }
 }
-@media (min-width: 361px) and (max-width: 414px) {
+@media (min-width: 361px) and (max-width: 428px) {
   .ch-text.is-text-company {
     font-size: 18px;
   }
 }
-@media (min-width: 415px) and (max-width: 1024px) {
+@media (min-width: 429px) and (max-width: 1024px) {
   .ch-text.is-text-company {
     font-size: 20px;
   }
@@ -512,12 +512,12 @@ a:hover {
     font-size: 14px;
   }
 }
-@media (min-width: 361px) and (max-width: 414px) {
+@media (min-width: 361px) and (max-width: 428px) {
   .ch-text.is-text-duration {
     font-size: 18px;
   }
 }
-@media (min-width: 415px) and (max-width: 1024px) {
+@media (min-width: 429px) and (max-width: 1024px) {
   .ch-text.is-text-duration {
     font-size: 24px;
   }
