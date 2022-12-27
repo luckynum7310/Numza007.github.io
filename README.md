@@ -16,5 +16,5 @@
   ·
   <a href="tel:+6636853708">Phone: +66 63 685 3708</a>
   ·
-  <a href="https://github.com/luckynum7310/luckynum7310.github.io">Website: luckynum7310.github.io</a>
+  <a href="[https://github.com/luckynum7310/luckynum7310.github.io](https://luckynum7310.github.io/cv/)">Website: luckynum7310.github.io</a>
 </p>
